@@ -112,14 +112,14 @@ Ensure Microsoft SQL Server is running and the `SRC_Bookstore` database schema i
    ```
 4. Configure your database connection in `.env`:
    ```env
-   PORT=5000
-   DB_SERVER=localhost
-   DB_PORT=1433
-   DB_NAME=SRC_Bookstore
-   DB_USER=src_bookstore_app
-   DB_PASSWORD=your_secure_password_here
-   DB_ENCRYPT=false
-   DB_TRUST_SERVER_CERTIFICATE=true
+   PORT=
+   DB_SERVER=
+   DB_PORT=
+   DB_NAME=
+   DB_USER=
+   DB_PASSWORD=
+   DB_ENCRYPT=
+   DB_TRUST_SERVER_CERTIFICATE=
    ```
 5. Start the backend server:
    ```bash
