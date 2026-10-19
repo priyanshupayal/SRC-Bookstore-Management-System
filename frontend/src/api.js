@@ -3,7 +3,7 @@
  * Handles communication between React UI and Express Backend
  */
 
-const API_BASE = '/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api';
 
 /**
  * Fetch system health and SQL Server connection info
